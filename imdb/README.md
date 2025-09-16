@@ -61,14 +61,3 @@ crew/name tables will trigger informative errors when required.
 Each script autodetects `datasets/` by default; pass `--datasets-dir` to point at
 other locations.
 
-## Key Findings to Date
-- Indian movie titles show small but measurable variation by initial. The saved
-  run (`letter_rating_analysis.txt`) covers 28,963 films with an overall average
-  rating of 6.17 (weighted mean 7.10) and an eta-squared effect size of 0.0048.
-- High-performing initials are often tied to very small sample sizes (e.g.,
-  single-title Devanagari characters), while Latin letters with large catalogs
-  cluster tightly around the global mean.
-
-These scripts provide a repeatable workflow for downloading the IMDb datasets,
-validating schema expectations, and exploring how text features such as starting
-letters align with viewer reception.
